@@ -1,8 +1,9 @@
+import "./Header.css";
 const Header = () => {
     return (
-        <div>
+        <header className="date-header">
             header yeah baby
-        </div>
+        </header>
     );
 }
 
