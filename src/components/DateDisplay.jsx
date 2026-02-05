@@ -1,0 +1,11 @@
+import "./Date.css";
+const DateDisplay = (props) => {
+    const { date } = props;
+    return (
+        <section className="date-display">
+            my day is: {date}
+        </section>
+    );
+}
+
+export default DateDisplay;
