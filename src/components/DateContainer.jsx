@@ -1,7 +1,8 @@
+import "./date.css";
 const DateContainer = () => {
     return (
         <div>
-            <input type="date" />
+            <input type="date" className="date-input" />
         </div>
     );
 }
